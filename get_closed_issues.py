@@ -35,8 +35,8 @@ all_members = page_through(MEMBERS)
 
 member_contributions = {}
 closed_issues_per_repo = {}
-start_date = int("2021-07-01".replace("-", ""))
-end_date = int("2021-07-31".replace("-", ""))
+start_date = int("2021-11-01".replace("-", ""))
+end_date = int("2021-11-25".replace("-", ""))
 
 while(all_repos):
     now_repo = all_repos.pop()
